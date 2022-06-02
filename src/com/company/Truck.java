@@ -6,7 +6,7 @@ public class Truck extends WheelableTransprot implements Service, Wheelable, Has
         super(modelName, wheelsCount);
     }
 
-    @Override
+
     public void updateTyre() {
         System.out.println("Меняем покрышку грузовика");
     }
